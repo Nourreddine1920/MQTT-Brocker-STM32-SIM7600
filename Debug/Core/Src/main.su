@@ -1,0 +1,8 @@
+../Core/Src/main.c:78:6:SIMTransmit	16	static
+../Core/Src/main.c:85:6:mqttPublish	16	static
+../Core/Src/main.c:145:5:main	8	static
+../Core/Src/main.c:196:6:SystemClock_Config	88	static
+../Core/Src/main.c:242:13:MX_ADC1_Init	24	static
+../Core/Src/main.c:294:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:327:13:MX_GPIO_Init	16	static
+../Core/Src/main.c:344:6:Error_Handler	4	static,ignoring_inline_asm
