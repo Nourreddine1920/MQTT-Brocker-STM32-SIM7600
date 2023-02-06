@@ -54,3 +54,20 @@ The most efficient way of connecting the STM32 microcontroller to the MQTT broke
 4. Zigbee: Zigbee is a low-power, low-data rate wireless communication technology that is well suited for small-scale, low-bandwidth IoT networks.
 
 Ultimately, the choice between these methods will depend on the specific requirements of your project and the trade-offs between factors such as range, power consumption, cost, and latency.
+
+
+### Usage and prequisties : 
+
+> To use MQTT, you need to follow these steps:
+
+1. Set up an MQTT broker: The first step is to set up an MQTT broker, which acts as the central hub for routing messages between clients. There are several open-source and commercial MQTT brokers available, such as Mosquitto, HiveMQ, and CloudMQTT.
+
+2. Connect MQTT clients: Next, you need to connect MQTT clients to the broker. MQTT clients can be devices such as sensors, microcontrollers, smartphones, or computers. They can be connected to the broker using a variety of communication methods, such as Wi-Fi, Ethernet, or cellular.
+
+3. Publish and subscribe to topics: MQTT clients communicate by publishing and subscribing to topics. A client can publish a message to a topic, and other clients can subscribe to that topic to receive the message. This allows for the exchange of data between devices in the network.
+
+4. Implement a messaging protocol: MQTT uses a publish-subscribe messaging protocol, which allows for one-to-many communication between devices. Clients can publish messages to topics, and other clients can subscribe to receive those messages. The broker routes the messages to the correct subscribers based on their topic subscriptions.
+
+5. Use Quality of Service (QoS) levels: MQTT supports three levels of Quality of Service (QoS), which define the level of reliability required for a message delivery. The levels are QoS 0, QoS 1, and QoS 2.
+
+By following these steps, you can use MQTT to create a scalable, efficient, and reliable communication network for IoT devices.
