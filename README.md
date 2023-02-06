@@ -26,3 +26,16 @@ Using MQTT with STM32 can provide several benefits, such as efficient and reliab
 - The MQTT broker acts as the central hub, routing messages between clients and maintaining information about their state. The SIM7600 4G modem enables the STM32 microcontroller to communicate with the broker over a cellular network, providing a reliable and scalable solution for IoT communication.
 
 - The use of MQTT with the STM32 microcontroller and SIM7600 modem can provide a low-overhead, efficient, and scalable solution for IoT communication, enabling devices to easily share and receive data in real-time.
+
+
+##  Connection between the STM32 microcontroller and the MQTT broker : 
+
+1. Wi-Fi: The STM32 microcontroller can be connected to a Wi-Fi network and use this connection to communicate with the MQTT broker.
+
+2. Ethernet: The STM32 microcontroller can be connected to an Ethernet network and use this connection to communicate with the MQTT broker.
+
+3. LoRa: The STM32 microcontroller can be connected to a LoRa network and use this connection to communicate with the MQTT broker.
+
+4. Zigbee: The STM32 microcontroller can be connected to a Zigbee network and use this connection to communicate with the MQTT broker.
+
+The specific method used will depend on the requirements of the project, such as the distance between devices, the bandwidth and latency of the network, and the power and cost constraints of the devices.
