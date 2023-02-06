@@ -41,7 +41,7 @@ Using MQTT with STM32 can provide several benefits, such as efficient and reliab
 The specific method used will depend on the requirements of the project, such as the distance between devices, the bandwidth and latency of the network, and the power and cost constraints of the devices.
 
 
-###  Efficient way for the Connection between the STM32 microcontroller and the MQTT broker : 
+###  Efficient way for the Connection between the STM32 microcontroller and the MQTT broker: 
 
 The most efficient way of connecting the STM32 microcontroller to the MQTT broker depends on the specific requirements of your project, such as the distance between devices, the bandwidth and latency of the network, and the power and cost constraints of the devices. Here are some factors to consider:
 
