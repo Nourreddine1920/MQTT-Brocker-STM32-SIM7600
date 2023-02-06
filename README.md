@@ -17,3 +17,12 @@ STM32 is a 32-bit microcontroller platform used in a wide range of applications,
 Using MQTT with STM32 can provide several benefits, such as efficient and reliable communication, low overhead, and compatibility with a wide range of other devices and platforms. To use MQTT with STM32, you will need to integrate an MQTT client library into your STM32 project and configure it to communicate with an MQTT broker.
 
 
+## MQTT Brocker with STM32 & SIM7600
+
+- This project involves connecting an STM32 microcontroller with a 4G modem (SIM7600) to an MQTT broker to allow for communication between devices in an IoT network.
+
+- The STM32 microcontroller is responsible for collecting data from sensors and other peripherals, and then publishing this data to the MQTT broker via the SIM7600 4G modem. Other devices in the network can subscribe to the broker to receive and act on this data.
+
+- The MQTT broker acts as the central hub, routing messages between clients and maintaining information about their state. The SIM7600 4G modem enables the STM32 microcontroller to communicate with the broker over a cellular network, providing a reliable and scalable solution for IoT communication.
+
+- The use of MQTT with the STM32 microcontroller and SIM7600 modem can provide a low-overhead, efficient, and scalable solution for IoT communication, enabling devices to easily share and receive data in real-time.
